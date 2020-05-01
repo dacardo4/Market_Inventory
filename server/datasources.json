@@ -3,13 +3,13 @@
     "name": "db",
     "connector": "memory"
   },
-  "api_market_inventory": {
+  "marketInventoryDB": {
     "host": "127.0.0.1",
     "port": 3306,
     "url": "",
     "database": "market_inventory",
     "password": "",
-    "name": "api_market_inventory",
+    "name": "marketInventoryDB",
     "user": "root",
     "connector": "mysql"
   }
