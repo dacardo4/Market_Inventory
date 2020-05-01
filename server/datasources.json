@@ -4,13 +4,13 @@
     "connector": "memory"
   },
   "marketInventoryDB": {
-    "host": "127.0.0.1",
+    "host": "bovxuaqnosdh4yledh9c-mysql.services.clever-cloud.com",
     "port": 3306,
-    "url": "",
-    "database": "market_inventory",
-    "password": "",
+    "url": "mysql://ulsw0zecowrwkvw5:wz6HU9S8y2P10pQLQEpz@bovxuaqnosdh4yledh9c-mysql.services.clever-cloud.com:3306/bovxuaqnosdh4yledh9c",
+    "database": "bovxuaqnosdh4yledh9c",
+    "password": "wz6HU9S8y2P10pQLQEpz",
     "name": "marketInventoryDB",
-    "user": "root",
+    "user": "ulsw0zecowrwkvw5",
     "connector": "mysql"
   }
 }
