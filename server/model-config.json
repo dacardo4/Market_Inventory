@@ -34,5 +34,13 @@
   "Role": {
     "dataSource": "db",
     "public": false
+  },
+  "product": {
+    "dataSource": "marketInventoryDB",
+    "public": true
+  },
+  "quantity": {
+    "dataSource": "marketInventoryDB",
+    "public": true
   }
 }
