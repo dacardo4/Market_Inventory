@@ -50,5 +50,9 @@
   "market": {
     "dataSource": "marketInventoryDB",
     "public": true
+  },
+  "category": {
+    "dataSource": "marketInventoryDB",
+    "public": true
   }
 }
