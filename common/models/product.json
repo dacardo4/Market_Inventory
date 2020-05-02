@@ -13,6 +13,15 @@
     "productName": {
       "type": "string",
       "required": true
+    },
+    "idUser": {
+      "type": "number"
+    },
+    "idCategory": {
+      "type": "number"
+    },
+    "idSubcategory": {
+      "type": "number"
     }
   },
   "validations": [],
