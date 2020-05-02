@@ -1,6 +1,6 @@
 {
-  "name": "quantity",
-  "plural": "quantities",
+  "name": "price",
+  "plural": "prices",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
@@ -10,15 +10,14 @@
     "id": {
       "type": "number"
     },
+    "price": {
+      "type": "number",
+      "required": true
+    },
     "idProduct": {
-      "type": "number",
-      "required": true
+      "type": "number"
     },
-    "quantity": {
-      "type": "number",
-      "required": true
-    },
-    "idUser": {
+    "idMarket": {
       "type": "number"
     }
   },

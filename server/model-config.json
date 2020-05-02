@@ -42,5 +42,9 @@
   "quantity": {
     "dataSource": "marketInventoryDB",
     "public": true
+  },
+  "price": {
+    "dataSource": "marketInventoryDB",
+    "public": true
   }
 }

@@ -12,7 +12,7 @@ CREATE TABLE `bovxuaqnosdh4yledh9c`.`market` (
   `marketAddress` VARCHAR(100) NULL,
   PRIMARY KEY (`id`));
 
-CREATE TABLE `bovxuaqnosdh4yledh9c`.`prices` (
+CREATE TABLE `bovxuaqnosdh4yledh9c`.`price` (
   `id` INT NOT NULL AUTO_INCREMENT,
   `price` INT NOT NULL,
   `idProduct` INT NULL,
