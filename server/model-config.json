@@ -54,5 +54,9 @@
   "category": {
     "dataSource": "marketInventoryDB",
     "public": true
+  },
+  "subcategory": {
+    "dataSource": "marketInventoryDB",
+    "public": true
   }
 }
