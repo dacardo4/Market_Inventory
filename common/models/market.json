@@ -1,0 +1,25 @@
+{
+  "name": "market",
+  "plural": "markets",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number"
+    },
+    "marketName": {
+      "type": "string",
+      "required": true
+    },
+    "marketAddress": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
