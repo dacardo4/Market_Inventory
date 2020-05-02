@@ -17,6 +17,8 @@
     "quantity": {
       "type": "number",
       "required": true
+    },"idUser": {
+      "type": "number"
     }
   },
   "validations": [],
