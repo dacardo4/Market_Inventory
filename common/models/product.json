@@ -29,7 +29,7 @@
     "quantities": {
       "type": "hasMany",
       "model": "quantity",
-      "foreignKey": ""
+      "foreignKey": "idProduct"
     }
   },
   "acls": [],
