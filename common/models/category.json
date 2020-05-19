@@ -16,7 +16,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "subcategories": {
+      "type": "hasMany",
+      "model": "subcategory",
+      "foreignKey": "idCategory"
+    }
+  },
   "acls": [],
   "methods": {}
 }

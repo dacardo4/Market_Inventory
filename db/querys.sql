@@ -37,3 +37,5 @@ CREATE TABLE `bovxuaqnosdh4yledh9c`.`quantity` (
   `idUser` INT NULL,
   PRIMARY KEY (`id`));
 
+{"where": {"id": 2}}
+{"include": "category"}
