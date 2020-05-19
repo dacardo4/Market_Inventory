@@ -37,5 +37,9 @@ CREATE TABLE `bovxuaqnosdh4yledh9c`.`quantity` (
   `idUser` INT NULL,
   PRIMARY KEY (`id`));
 
+ALTER TABLE `bovxuaqnosdh4yledh9c`.`quantity` 
+  ADD COLUMN `quantityToBuy` INT(11) NULL AFTER `quantityInStock`,
+  CHANGE COLUMN `quantity` `quantityInStock` INT(11) NOT NULL ;
+
 {"where": {"id": 2}}
 {"include": "category"}
