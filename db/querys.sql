@@ -43,3 +43,13 @@ ALTER TABLE `bovxuaqnosdh4yledh9c`.`quantity`
 
 {"where": {"id": 2}}
 {"include": "category"}
+
+{"include": "product"}
+{"where": {"quantityToBuy": {"gt":0}}}
+
+{
+ "where": {"quantityToBuy": {"gt":0}},
+ "include": "product" 
+}
+{"include": "product"}
+{"where": {"quantityToBuy": {"gt":0}}}
