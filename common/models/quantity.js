@@ -8,7 +8,8 @@ module.exports = function(Quantity) {
                 "include": "product" 
             },
             function (err, instance) {
-                cb(null, instance);
+                let instance2 = instance.sort(sortShoppingListByProductName);
+                cb(null, instance2);
             }
         );
     }
@@ -18,3 +19,15 @@ module.exports = function(Quantity) {
         returns: {type: 'array', root: true}
     });
 };
+
+function sortShoppingListByProductName(a, b) {
+    const productA = a.product().productName.toUpperCase();
+    const productB = b.product().productName.toUpperCase();
+    let comparison = 0;
+    if (productA > productB) {
+        comparison = 1;
+    } else if (productA < productB) {
+        comparison = -1;
+    }
+    return comparison;
+}

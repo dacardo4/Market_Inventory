@@ -51,5 +51,24 @@ ALTER TABLE `bovxuaqnosdh4yledh9c`.`quantity`
  "where": {"quantityToBuy": {"gt":0}},
  "include": "product" 
 }
+
 {"include": "product"}
 {"where": {"quantityToBuy": {"gt":0}}}
+
+
+
+
+{
+ "where": {"quantityToBuy": {"gt":0}},
+ "include": "product" 
+}
+
+{
+  "where": {"quantity": {"gt":0}},
+  "include": [{
+    "relation":"product",
+    "scope": {
+      "order":"productName DESC"    
+    }
+  }]
+}
