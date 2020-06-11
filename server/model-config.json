@@ -58,5 +58,9 @@
   "subcategory": {
     "dataSource": "marketInventoryDB",
     "public": true
+  },
+  "brand": {
+    "dataSource": "marketInventoryDB",
+    "public": true
   }
 }
