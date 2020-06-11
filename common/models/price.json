@@ -19,6 +19,9 @@
     },
     "idMarket": {
       "type": "number"
+    },
+    "idBrand": {
+      "type": "number"
     }
   },
   "validations": [],
