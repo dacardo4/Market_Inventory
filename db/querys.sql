@@ -44,3 +44,8 @@ ALTER TABLE `bovxuaqnosdh4yledh9c`.`quantity`
 ALTER TABLE `bovxuaqnosdh4yledh9c`.`prices` 
   ADD COLUMN `idBrand` INT(11) NULL DEFAULT NULL AFTER `idMarket`;
 
+CREATE TABLE `bovxuaqnosdh4yledh9c`.`brand` (
+  `id` INT(11) NOT NULL AUTO_INCREMENT,
+  `brandName` VARCHAR(45) NULL,
+  PRIMARY KEY (`id`));
+
